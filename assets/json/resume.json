@@ -1,15 +1,13 @@
 {
   "basics": {
     "name": "Sergio Fabregat",
-    "label": "Scientist",
+    "label": "Graphics Programmer",
     "image": "",
     "email": "sergiopepis@gmail.com",
     "phone": "(+34) 637 68 20 26",
     "url": "https://pepis74.github.io",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "I am a curious, motivated and active person. I'm always busy building or exploring something new, approaching every project with dedication and a determination to do it the best way I know. I love to delve in and learn about the subjects that spark my attention, such as videogames, science, folklore, bodybuilding and, mainly, computer graphics. I am passionate about teaching and sharing back the things I've learned. I aspire to be a person others turn to for expertise. I strive to keep learning and growing through challenging and interesting new projects, while helping those around me do the same.",
     "location": {
-      "address": "",
-      "postalCode": "",
       "city": "Móstoles",
       "countryCode": "ES",
       "region": "Madrid"
@@ -30,32 +28,28 @@
       "startDate": "2024-11-07",
       "endDate": "2025-06-21",
       "summary": "Worked on rendering photorealistic images of car bodies under the specific conditions of inspection tunnels.",
-      "highlights": ["Implemented a BRDF", "Implemented an irradiance cache for diffuse lighting", "Implemented monte calro ray tracing for specular reflections", "Built an interface over Radeon ProRender to "]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "highlights": ["Implemented a BRDF.", "Implemented an irradiance cache for diffuse lighting.", "Implemented Monte Carlo ray tracing for specular reflections.", "Built an interface over Radeon ProRender to "]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Universidad Rey Juan Carlos",
+      "location": "Móstoles, Spain",
+      "url": "https://www.urjc.es/",
+      "area": "Computer Graphics, Games and Virtual Reality",
+      "studyType": "Master's Degree",
+      "startDate": "2025-09-24",
+      "endDate": "Present"
+    },
+    {
+      "institution": "Universitat Politècnica de Valéncia",
+      "location": "Valencia, Spain",
+      "url": "https://www.upv.es/",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2021-09-12",
+      "endDate": "2025-07-15",
+      "score": "8.6"
     }
   ],
   "awards": [
