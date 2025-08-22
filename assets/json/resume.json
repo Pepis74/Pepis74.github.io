@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Sergio Fabregat",
     "label": "Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "email": "sergiopepis@gmail.com",
+    "phone": "(+34) 637 68 20 26",
+    "url": "https://pepis74.github.io",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Móstoles",
+      "countryCode": "ES",
+      "region": "Madrid"
     },
     "profiles": [
       {
@@ -24,13 +24,13 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "AUTIS Ingenieros",
+      "position": "Internship as a Graphics Programmer",
+      "url": "https://autis.com/inicio/",
+      "startDate": "2024-11-07",
+      "endDate": "2025-06-21",
+      "summary": "Worked on rendering photorealistic images of car bodies under the specific conditions of inspection tunnels.",
+      "highlights": ["Implemented a BRDF", "Implemented an irradiance cache for diffuse lighting", "Implemented monte calro ray tracing for specular reflections", "Built an interface over Radeon ProRender to "]
     }
   ],
   "volunteer": [
