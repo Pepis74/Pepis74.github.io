@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Quarantamaula Engine
+description: Custom OpenGL engine developed to teach myself computer graphics.
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: computer graphics
 related_publications: false
 ---
 
