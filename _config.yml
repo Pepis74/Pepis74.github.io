@@ -185,7 +185,6 @@ exclude:
   - readme_preview/
   - vendor
   - _pages/publications.md
-  - _includes/repository/
   - _pages/repositories.md
 keep_files:
   - CNAME
