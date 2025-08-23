@@ -44,18 +44,6 @@
       "score": "8.6"
     }
   ],
-  "languages": [
-    {
-      "language": "Spanish",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "CEFR Level C2",
-      "icon": ""
-    }
-  ],
   "projects": [
     {
       "name": "Quarantamaula Engine",
@@ -74,12 +62,32 @@
       "url": "https://example.com"
     },
     {
-      "name": "Go back to dead",
-      "summary": "Mobile arcade game based in Unity made to teach the player key concepts of genetics.",
-      "highlights": ["DNA-based gameplay.", "Different guns.", "Aptly themed passives", "Ship Skins.", "Daily missions."],
-      "startDate": "2019-06-01",
+      "name": "Go Back to Dead",
+      "summary": "Infuriated that a zombie apocalypse has reanimated millions of people and ruined all his hard work, Death itself, controlled by the player, must slay as many zombies as he can in this top-down arcade game",
+      "highlights": ["Made for a university game jam.", "Developed in Unity by a team of 5.", "My contributions were leading the team, game design and programming."],
+      "startDate": "2022-11-01",
+      "endDate": "2022-11-01",
+      "url": "https://example.com"
+    },
+    {
+      "name": "The Cat",
+      "summary": "In this turn-based game the player takes the role of a cat-sitter. They must rearrange furniture to protect their friend’s precious items from his unpredictable pet.",
+      "highlights": ["Made for the GMTK 2020 game jam, which had the theme 'Out of Control'.", "Developed in Unity by a team of 3.", "My contributions were game design and programming."],
+      "startDate": "2020-07-01",
       "endDate": "2020-07-01",
       "url": "https://example.com"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "CEFR Level C2",
+      "icon": ""
     }
   ],
   "skills": [
