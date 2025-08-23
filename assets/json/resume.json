@@ -2,7 +2,7 @@
   "basics": {
     "name": "Sergio Fabregat",
     "label": "Graphics Programmer",
-    "image": "prof_pic.jpg",
+    "image": "",
     "email": "sergiopepis@gmail.com",
     "phone": "(+34) 637 68 20 26",
     "url": "https://pepis74.github.io",
@@ -62,6 +62,16 @@
       "language": "English",
       "fluency": "CEFR Level C2",
       "icon": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": ["Won award at AIHacks 2016"],
+      "url": "https://project.com/"
     }
   ],
   "skills": [
