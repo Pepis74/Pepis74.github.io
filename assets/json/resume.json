@@ -11,14 +11,7 @@
       "city": "Móstoles",
       "countryCode": "ES",
       "region": "Madrid"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    }
   },
   "work": [
     {
