@@ -18,12 +18,24 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "projects-genetic-invaders",
+        },{id: "nav-horror-stories",
+          title: "horror stories",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/horror_stories/";
+          },
+        },{id: "horror_stories-finisterre",
+          title: 'Finisterre',
+          description: "Two friends explore the thousand year old abandoned lighthouse that looks over their Galician town.",
+          section: "Horror_stories",handler: () => {
+              window.location.href = "/horror_stories/finisterre/";
+            },},{id: "projects-genetic-invaders",
           title: 'Genetic Invaders',
           description: "Mobile arcade game based in Unity made to teach the player key concepts of genetics.",
           section: "Projects",handler: () => {
