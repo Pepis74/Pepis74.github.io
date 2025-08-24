@@ -32,7 +32,12 @@ ninja.data = [{
           },
         },{id: "horror_stories-finisterre",
           title: 'Finisterre',
-          description: "Two friends explore the thousand year old abandoned lighthouse that looks over their Galician town.",
+          description: "Two friends explore the thousand year old abandoned lighthouse that looks over their hometown.",
+          section: "Horror_stories",handler: () => {
+              window.location.href = "/horror_stories/finisterre%20copy/";
+            },},{id: "horror_stories-finisterre",
+          title: 'Finisterre',
+          description: "Two friends explore the thousand year old abandoned lighthouse that looks over their hometown.",
           section: "Horror_stories",handler: () => {
               window.location.href = "/horror_stories/finisterre/";
             },},{id: "projects-genetic-invaders",
