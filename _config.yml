@@ -142,6 +142,8 @@ newsletter:
 collections:
   projects:
     output: true
+  horror_stories:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
