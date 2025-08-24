@@ -23,51 +23,31 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+        },{id: "projects-genetic-invaders",
+          title: 'Genetic Invaders',
+          description: "Mobile arcade game based in Unity made to teach the player key concepts of genetics.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/genetic_invaders/";
+            },},{id: "projects-go-back-to-dead",
+          title: 'Go Back to Dead',
+          description: "Infuriated that a zombie apocalypse has reanimated millions of people and ruined all his hard work, Death itself, controlled by the player, must slay as many zombies as he can in this top-down arcade game.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/go_back_to_dead/";
+            },},{id: "projects-pbrrenderer",
+          title: 'PBRRenderer',
+          description: "My bachelor&#39;s thesis, &#39;Photorealistic rendering of car bodies&#39;.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/pbrrenderer/";
             },},{id: "projects-quarantamaula-engine",
           title: 'Quarantamaula Engine',
           description: "Custom OpenGL engine developed to teach myself computer graphics.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/quarantamaula_engine/";
+            },},{id: "projects-the-cat",
+          title: 'The Cat',
+          description: "In this turn-based game the player takes the role of a cat-sitter. They must rearrange furniture to protect their friend’s precious items from his unpredictable pet.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/the_cat/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
