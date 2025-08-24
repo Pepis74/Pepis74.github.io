@@ -2,7 +2,6 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
 display_categories: [computer graphics, videogames, other]
@@ -17,7 +16,7 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign categorized_projects = site.horror_stories | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
