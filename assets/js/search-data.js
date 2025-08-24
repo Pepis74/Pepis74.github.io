@@ -34,11 +34,6 @@ ninja.data = [{
           title: 'Finisterre',
           description: "Two friends explore the thousand year old abandoned lighthouse that looks over their hometown.",
           section: "Horror_stories",handler: () => {
-              window.location.href = "/horror_stories/finisterre%20copy/";
-            },},{id: "horror_stories-finisterre",
-          title: 'Finisterre',
-          description: "Two friends explore the thousand year old abandoned lighthouse that looks over their hometown.",
-          section: "Horror_stories",handler: () => {
               window.location.href = "/horror_stories/finisterre/";
             },},{id: "projects-genetic-invaders",
           title: 'Genetic Invaders',
@@ -52,7 +47,7 @@ ninja.data = [{
               window.location.href = "/projects/go_back_to_dead/";
             },},{id: "projects-pbrrenderer",
           title: 'PBRRenderer',
-          description: "My bachelor&#39;s thesis, &#39;Photorealistic rendering of car bodies&#39;.",
+          description: "My bachelor&#39;s thesis, an interface over Radeon ProRender to adapt it to the specific rendering needs of the client.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/pbrrenderer/";
             },},{id: "projects-quarantamaula-engine",
