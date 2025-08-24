@@ -8,8 +8,8 @@ horizontal: false
 ---
 
 <!-- pages/horror_stories.md -->
-<div class="horror_stories">
-{% if site.enable_horror_story_categories and page.display_categories %}
+<div class="projects">
+{% if page.display_categories %}
   <!-- Display categorized horror_stories -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
@@ -22,7 +22,7 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for horror_story in sorted_horror_stories %}
-      {% include horror_stories_horizontal.liquid %}
+      {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
@@ -48,7 +48,7 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for horror_story in sorted_horror_stories %}
-      {% include horror_stories_horizontal.liquid %}
+      {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
