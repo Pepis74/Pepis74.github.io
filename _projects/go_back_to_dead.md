@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Go Back to Dead
+description: Infuriated that a zombie apocalypse has reanimated millions of people and ruined all his hard work, Death itself, controlled by the player, must slay as many zombies as he can in this top-down arcade game.
+img: assets/img/1.jpg
 importance: 3
-category: computer graphics
+category: videogames
 ---
 
 Every project has a beautiful feature showcase page.

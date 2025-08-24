@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: computer graphics
-giscus_comments: true
+title: Genetic Invaders
+description: "Mobile arcade game based in Unity made to teach the player key concepts of genetics."
+img: 
+importance: 3
+category: videogames
 ---
 
 Every project has a beautiful feature showcase page.

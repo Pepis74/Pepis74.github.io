@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
-img: assets/img/6.jpg
-importance: 4
-category: videogames
+title: PBRRenderer
+description: My bachelor's thesis, 'Photorealistic rendering of car bodies'.
+img: assets/img/3.jpg
+importance: 2
+category: computer graphics
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.
