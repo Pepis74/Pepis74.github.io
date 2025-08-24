@@ -29,7 +29,7 @@ horizontal: false
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
     {% for horror_story in sorted_horror_stories %}
-      {% include horror_stories.liquid %}
+      {% include projects.liquid %}
     {% endfor %}
   </div>
   {% endif %}
@@ -55,7 +55,7 @@ horizontal: false
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
     {% for horror_story in sorted_horror_stories %}
-      {% include horror_stories.liquid %}
+      {% include projects.liquid %}
     {% endfor %}
   </div>
   {% endif %}
