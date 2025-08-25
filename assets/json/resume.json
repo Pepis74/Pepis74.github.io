@@ -20,7 +20,7 @@
       "startDate": "2024-11-07",
       "endDate": "2025-06-21",
       "summary": "Worked on rendering photorealistic images of car bodies under the specific conditions of inspection tunnels.",
-      "highlights": ["Implemented a BRDF.", "Implemented an irradiance cache for diffuse lighting.", "Implemented Monte Carlo ray tracing for specular reflections.", "Built an interface over Radeon ProRender to adapt it to our specific rendering requirements."]
+      "highlights": ["Implemented a BRDF.", "Implemented an irradiance cache for diffuse lighting.", "Implemented Monte Carlo ray tracing for specular reflections.", "Implemented a bilateral denoiser to clean up the ray tracer.",  "Built an interface over Radeon ProRender to adapt it to our specific rendering requirements."]
     }
   ],
   "education": [

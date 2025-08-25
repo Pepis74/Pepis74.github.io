@@ -3,15 +3,18 @@ layout: page
 title: PBRRenderer
 description: My bachelor's thesis, an interface over Radeon ProRender to adapt it to the specific rendering needs of the client.
 img: assets/img/3.jpg
+cv_pdf: tfg.pdf
 importance: 2
 category: computer graphics
 giscus_comments: false
 ---
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+To give some context, I did an internship with AUTIS Ingenieros, who owns inspection tunnels with a certain light configuration and many cameras positioned to detect superficial defects on car bodies, like scratches or small fibers. To upgrade these tunnels they wanted to use a computer vision model to better classify these imperfections. In order to train the model they needed a lot of images of car bodies with imperfections taken by these tunnel cameras. The first step was making a renderer that could generate photorealistic images of car bodies in those specific conditions. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+That's what I worked on. At first we decided to develop the rendering engine ourselves. So in order to do that I researched and implemented physically based shading, an irradiance cache for diffuse lighting, Monte Carlo ray tracing for specular reflections and a denoiser for the ray tracer. However, we realized that we had taken on a lot more than we could chew, specially considering that I didn't have any experience with photorealistic rendering prior to this internship. So we pivoted to adapting an existing engine to our needs, and we decided on AMD's Radeon ProRender. 
+
+AUTIS already has a multipurpose simulation software written in C++. Thus, I developed an interface between this software and Radeon ProRender's SDK, with the objective of abstracting the complexities of Physically Based Rendering such that engineers with no previous experience with computer graphics could make use of Radeon ProRender's excellent rendering capabalities.
+
+
 
     ---
     layout: page
