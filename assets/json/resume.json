@@ -27,7 +27,7 @@
     {
       "institution": "Universidad Rey Juan Carlos",
       "location": "Móstoles, Spain",
-      "url": "https://www.urjc.es/estudios/master/908-informatica-grafica-juegos-y-realidad-virtual",
+      "url": "https://en.urjc.es/estudios/master/908-informatica-grafica-juegos-y-realidad-virtual",
       "area": "Computer Graphics, Games and Virtual Reality",
       "studyType": "Master's Degree",
       "startDate": "2025-09-24",
@@ -92,30 +92,98 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Computer Graphics",
+      "level": "Advanced",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "OpenGL",
+        "Monte Carlo ray tracing",
+        "Irradiance Cache",
+        "Deferred Shading",
+        "Physically Based Shading",
+        "Image Based Lighting",
+        "Shadow Maps & Shadow Filtering"
+      ]
+    },
+    {
+      "name": "Game Development",
+      "level": "Advanced",
+      "keywords": [
+        "Unity",
+        "C#",
+        "Game Design",
+        "UI Design"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Advanced",
+      "keywords": [
+        "C++",
+        "C#",
+        "Java",
+        "C",
+        "Python",
+        "JavaScript",
+        "Haskell",
+        "Prolog"
+      ]
+    },
+    {
+      "name": "Teaching",
+      "level": "Experienced",
+      "keywords": [
+        "Private Lessons",
+        "Computer Science"
       ]
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Videogames",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Overwatch",
+        "Monster Hunter",
+        "Pokémon",
+        "Nintendo"
+      ]
+    },
+    {
+      "name": "Medicine",
+      "keywords": [
+        "Pharmacology",
+        "Epidemiology",
+        "Immunology",
+        "Biochemistry"
+      ]
+    },
+    {
+      "name": "Bodybuilding",
+      "keywords": [
+        "Hypertrophy",
+        "Bulking",
+        "Cutting",
+        "Strength training"
+      ]
+    },
+    {
+      "name": "Horror & Folklore",
+      "keywords": [
+        "Urban Exploration",
+        "Paranormal Investigations",
+        "True Crime",
+        "Cryptozoology",
+        "Horror Movies: REC, Blair Witch Project, Talk to me, Urban Legend",
+        "Horror Games: Resident Evil, Phasmophobia",
+        "Esotericism"
+      ]
+    },
+    {
+      "name": "Animation",
+      "keywords": [
+        "Gravity Falls",
+        "Owl House",
+        "Steven Universe",
+        "She-Ra"
       ]
     }
   ]
