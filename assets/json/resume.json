@@ -148,12 +148,15 @@
       ]
     },
     {
-      "name": "Medicine",
+      "name": "Horror & Folklore",
       "keywords": [
-        "Pharmacology",
-        "Epidemiology",
-        "Immunology",
-        "Biochemistry"
+        "Urban Exploration",
+        "Paranormal Investigations",
+        "True Crime",
+        "Cryptozoology",
+        "Horror Movies: REC, Blair Witch Project, Talk to me, Urban Legend",
+        "Horror Games: Resident Evil, Phasmophobia",
+        "Esotericism"
       ]
     },
     {
@@ -166,15 +169,12 @@
       ]
     },
     {
-      "name": "Horror & Folklore",
+      "name": "Medicine",
       "keywords": [
-        "Urban Exploration",
-        "Paranormal Investigations",
-        "True Crime",
-        "Cryptozoology",
-        "Horror Movies: REC, Blair Witch Project, Talk to me, Urban Legend",
-        "Horror Games: Resident Evil, Phasmophobia",
-        "Esotericism"
+        "Pharmacology",
+        "Epidemiology",
+        "Immunology",
+        "Biochemistry"
       ]
     },
     {
