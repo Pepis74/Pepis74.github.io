@@ -16,10 +16,10 @@ That's what I worked on. At first we decided to develop the rendering engine our
 
 AUTIS already has a multipurpose simulation software written in C++. Thus, I developed an interface between this software and Radeon ProRender's SDK, with the objective of abstracting the complexities of Physically Based Rendering such that engineers with no previous experience with computer graphics could make use of Radeon ProRender's excellent rendering capabalities.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://youtu.be/Th2DjVsqE-E" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
-    </div>
+<div class="row justify-content-center mt-3">
+  <div class="col-lg-8">
+    {% include video.liquid path="https://www.youtube.com/embed/Th2DJvSqE-c" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
+  </div>
 </div>
 <div class="caption">
     A showcase of what the interface features.
@@ -27,7 +27,40 @@ AUTIS already has a multipurpose simulation software written in C++. Thus, I dev
 
 We tested this renderer by taking photos of car paint samples via a device that acted like a miniature version of an inspection tunnel. We took pictures of the same sample under different lighting conditions and camera exposure levels. Then I recreated the scene in our solution, matching the real world parameters of the camera, the lighting, the placement of objects, etc. However, when we compared the images, we realized that we didn't fully accomplish our goals of rendering images indistinguishable from real world pictures.
 
-We attribute this to the following three factors:
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bright_fake.png" title="bright rendered image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            The rendered image. 
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bright_real.png" title="bright real image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            The real picture. 
+        </div>
+    </div>
+</div>
+
+
+This is the case of highest brightness, where the recreation is faithful because these were the conditions under which we edited the material in our renderer to closely match the real picture.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bright_fake.png" title="bright rendered image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            The rendered image. 
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bright_real.png" title="bright real image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            The real picture. 
+        </div>
+    </div>
+</div>
+
+However, we can see that when we vary the lighting intensity or camera exposure the brightness of the rendered image doesn't hold up as well. We attribute this to the following three factors:
 
 - The lighting intensity parameter of the real world light sources didn't have a linear relationship with the amount of light emitted by said source. And I had programmed it as such. So, that's why when we varied lighting the image brightness didn't look right.
 - My implementation of exposure post-processing to emulate the work of a real camera was quite poor, as I barely had time to research the topic due to time constraints.
