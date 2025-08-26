@@ -18,7 +18,7 @@ AUTIS already has a multipurpose simulation software written in C++. Thus, I dev
 
 <div class="row justify-content-center mt-3">
   <div class="col-lg-8">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Th2DjVsqE-E?si=kmf2CplAjjcbjQ5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    {% include video.liquid path="https://www.youtube.com/embed/Th2DjVsqE-E?si=kmf2CplAjjcbjQ5M" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
   </div>
 </div>
 <div class="caption">
