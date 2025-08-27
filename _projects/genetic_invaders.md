@@ -7,45 +7,32 @@ importance: 3
 category: videogames
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+I began developing games when 2017 turned into 2018, around the age of 14. There were many scrapped projects until I began the development of a new game as the summer of 2019 started. I worked on it steadily over the course of a year, with the quarantine helping to boost my productivity. And finally, around July of 2020, I released my first complete game, Genetic Invaders.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Genetifc Invaders is a unique mobile arcade game based around the concept of genetic transcription. This is a biological process in which a specific segment of DNA, called a gene, is used as a template to synthesize a complementary molecule of RNA. This more mobile molecule can then leave the nucleus and head to a different part of the cell where its genetic information will be processed to synthesize the protein it encodes. Genetic transcription is essentially the first step in gene expression.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+DNA is a sequence made up of a combination of 4 different chemical bases. Think of it like an instructions book written in a language with only 4 letters. These 4 bases are Adenin (A), Thymine (T), Guanine (G) and Cytosine (C). 
+
+To perform this transcription, an enzyme called RNA polymerase latches onto the DNA strand and travels along it, reading the sequence of bases one by one. For each base it reads on the DNA template, it adds a corresponding base to the new, growing RNA strand. This follows a strict set of complementary pairing rules:
+
+- When it reads a Guanine (G), it adds a Cytosine (C) to the new RNA strand.
+
+- When it reads a Cytosine (C), it adds a Guanine (G).
+
+- When it reads a Thymine (T), it adds an Adenine (A).
+
+However, RNA uses a slightly different alphabet than DNA. When RNA polymerase reads an Adenine (A) on the DNA, it does not add Thymine. Instead, it adds a different base called Uracil (U). This Uracil base is the RNA equivalent of Thymine.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/genetic_transcription.png" title="RNA transcription" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Genetic transcription, image courtesy of Khan Academy.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+How does all this relate to the game? Well, in Genetic Invaders the player takes the role of RNA polymerase. Each enemy spawns with a randomly generated DNA sequence.And each time the player types the correct complementary base to the one the enemy is presenting, the ship shoots a bullet towards it. So, to eliminate enemies you must type the correct complementary RNA sequence. 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
