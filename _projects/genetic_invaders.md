@@ -2,7 +2,7 @@
 layout: page
 title: Genetic Invaders
 description: "Mobile arcade game based in Unity made to teach the player key concepts of genetics."
-img: 
+img: assets/img/genlogo.png
 importance: 3
 category: videogames
 ---
@@ -32,7 +32,7 @@ However, RNA uses a slightly different alphabet than DNA. When RNA polymerase re
     Genetic transcription, image courtesy of Khan Academy.
 </div>
 
-How does all this relate to the game? Well, in Genetic Invaders the player takes the role of RNA polymerase. Each enemy spawns with a randomly generated DNA sequence.And each time the player types the correct complementary base to the one the enemy is presenting, the ship shoots a bullet towards it. So, to eliminate enemies you must type the correct complementary RNA sequence. 
+How does all this relate to the game? Well, in Genetic Invaders the player takes the role of RNA polymerase. Each enemy spawns with a randomly generated DNA sequence. And each time the player types the correct complementary base to the one the enemy is presenting, the ship shoots a bullet towards it. So, to eliminate enemies you must type the correct complementary RNA sequence. 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
