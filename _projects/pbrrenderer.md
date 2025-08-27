@@ -18,7 +18,7 @@ AUTIS already has a multipurpose simulation software written in C++. Thus, I dev
     
 <!-- The outer structure still handles sizing and centering -->
 <div class="row justify-content-center mt-3">
-  <div class="col-lg-8">
+  <div class="col-lg-10">
     <div class="embed-responsive embed-responsive-16by9">
       <iframe 
         class="embed-responsive-item"

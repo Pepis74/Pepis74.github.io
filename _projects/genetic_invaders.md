@@ -7,9 +7,30 @@ importance: 3
 category: videogames
 ---
 
+<!-- The outer structure still handles sizing and centering -->
+<div class="row justify-content-center mt-3">
+  <div class="col-lg-10">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe 
+        class="embed-responsive-item"
+        src="https://www.youtube.com/embed/rmM-3FvxsbU?si=tgW8zy6g83hcjHnT" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+<!-- The caption remains the same -->
+<div class="caption">
+    Genetic Invaders' Trailer.
+</div>
+
 I began developing games when 2017 turned into 2018, around the age of 14. There were many scrapped projects until I began the development of a new game as the summer of 2019 started. I worked on it steadily over the course of a year, with the quarantine helping to boost my productivity. And finally, around July of 2020, I released my first complete game, Genetic Invaders.
 
-Genetifc Invaders is a unique mobile arcade game based around the concept of genetic transcription. This is a biological process in which a specific segment of DNA, called a gene, is used as a template to synthesize a complementary molecule of RNA. This more mobile molecule can then leave the nucleus and head to a different part of the cell where its genetic information will be processed to synthesize the protein it encodes. Genetic transcription is essentially the first step in gene expression.
+Genetic Invaders is a unique mobile arcade game based around the concept of genetic transcription. This is a biological process in which a specific segment of DNA, called a gene, is used as a template to synthesize a complementary molecule of RNA. This more mobile molecule can then leave the nucleus and head to a different part of the cell where its genetic information will be processed to synthesize the protein it encodes. Genetic transcription is essentially the first step in gene expression.
 
 DNA is a sequence made up of a combination of 4 different chemical bases. Think of it like an instructions book written in a language with only 4 letters. These 4 bases are Adenin (A), Thymine (T), Guanine (G) and Cytosine (C). 
 
