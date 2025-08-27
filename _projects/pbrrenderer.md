@@ -8,7 +8,7 @@ importance: 2
 category: computer graphics
 giscus_comments: false
 ---
-This was the final thesis (TFG in Spanish) of my bachelor's degree in computer engineering. Here I'll briefly go over my work, but if you're interested you can [read the full paper in Spanish](assets/pdf/tfg.pdf).
+This was the final thesis (TFG in Spanish) of my bachelor's degree in computer engineering. Here I'll briefly go over my work, but if you're interested you can [read the full paper in Spanish](https://pepis74.github.io/assets/pdf/tfg.pdf).
 
 To give some context, I did an internship with [AUTIS Ingenieros](https://autis.com/en/home/), who owns inspection tunnels with a certain light configuration and many cameras positioned to detect superficial defects on car bodies, like scratches or small fibers. To upgrade these tunnels they wanted to use a computer vision model to better classify these imperfections. In order to train the model they needed a lot of images of car bodies with imperfections taken by these tunnel cameras. The first step was making a renderer that could generate photorealistic images of car bodies in those specific conditions. 
 
@@ -40,8 +40,6 @@ AUTIS already has a multipurpose simulation software written in C++. Thus, I dev
 <div class="caption">
     A showcase of what the interface features.
 </div>
-
-  
 
 We tested this renderer by taking photos of car paint samples via a device that acted like a miniature version of an inspection tunnel. We took pictures of the same sample under different lighting conditions and camera exposure levels. Then I recreated the scene in our solution, matching the real world parameters of the camera, the lighting, the placement of objects, etc. However, when we compared the images, we realized that we didn't fully accomplish our goals of rendering images indistinguishable from real world pictures.
 
