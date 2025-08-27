@@ -16,14 +16,32 @@ That's what I worked on. At first we decided to develop the rendering engine our
 
 AUTIS already has a multipurpose simulation software written in C++. Thus, I developed an interface between this software and Radeon ProRender's SDK, with the objective of abstracting the complexities of Physically Based Rendering such that engineers with no previous experience with computer graphics could make use of Radeon ProRender's excellent rendering capabalities.
 
+    
+<!-- This outer structure handles the desktop sizing (col-lg-8) and centering (justify-content-center) -->
 <div class="row justify-content-center mt-3">
   <div class="col-lg-8">
-    {% include video.liquid path="https://www.youtube.com/embed/Th2DjVsqE-E?si=kmf2CplAjjcbjQ5M" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
+
+    <!-- This inner structure makes the video responsive and maintains its 16:9 aspect ratio -->
+    <div class="ratio ratio-16x9">
+      <iframe 
+        src="https://www.youtube.com/embed/Th2DjVsqE-E?si=L_nzFFmf0JnvDHrk" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
   </div>
 </div>
+
+<!-- The caption remains the same, correctly placed after the video's row -->
 <div class="caption">
     A showcase of what the interface features.
 </div>
+
+  
 
 We tested this renderer by taking photos of car paint samples via a device that acted like a miniature version of an inspection tunnel. We took pictures of the same sample under different lighting conditions and camera exposure levels. Then I recreated the scene in our solution, matching the real world parameters of the camera, the lighting, the placement of objects, etc. However, when we compared the images, we realized that we didn't fully accomplish our goals of rendering images indistinguishable from real world pictures.
 
