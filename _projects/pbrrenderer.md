@@ -20,8 +20,6 @@ AUTIS already has a multipurpose simulation software written in C++. Thus, I dev
 <!-- This outer structure handles the desktop sizing (col-lg-8) and centering (justify-content-center) -->
 <div class="row justify-content-center mt-3">
   <div class="col-lg-8">
-
-    <!-- This inner structure makes the video responsive and maintains its 16:9 aspect ratio -->
     <div class="ratio ratio-16x9">
       <iframe 
         src="https://www.youtube.com/embed/Th2DjVsqE-E?si=L_nzFFmf0JnvDHrk" 
@@ -32,7 +30,6 @@ AUTIS already has a multipurpose simulation software written in C++. Thus, I dev
         allowfullscreen>
       </iframe>
     </div>
-
   </div>
 </div>
 
