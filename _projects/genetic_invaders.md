@@ -3,6 +3,7 @@ layout: page
 title: Genetic Invaders
 description: "Mobile arcade game based in Unity made to teach the player key concepts of genetics."
 img: assets/img/genlogo.png
+github: https://github.com/Pepis74/Genetic-Invaders
 importance: 3
 category: videogames
 ---
@@ -78,4 +79,13 @@ Apart from this, the ship can move and perform a dash to avoid enemy attacks. Fu
     </div>
 </div>
 
+In order to obtain all these customization items the game has multiple systems. An in game store, lootboxes that can be obtained through playing, items that can be obtained through progressing in the game and daily assignments that give miscellaneous rewards, such as letting you choose the item you want to work on unlocking, lootboxes or the store's currency.
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/gen_assignments.png" title="Assignments screen" class="img-fluid rounded z-depth-1" %}   
+    </div>
+    <div class="caption">
+          The assignments screen.
+    </div>
+</div>
