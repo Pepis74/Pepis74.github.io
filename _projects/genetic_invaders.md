@@ -4,6 +4,7 @@ title: Genetic Invaders
 description: "Mobile arcade game based in Unity made to teach the player key concepts of genetics."
 img: assets/img/genlogo.png
 github: https://github.com/Pepis74/Genetic-Invaders
+cv_pdf: er.pdf
 importance: 3
 category: videogames
 ---
@@ -83,9 +84,9 @@ In order to obtain all these customization items the game has multiple systems. 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/gen_assignments.png" title="Assignments screen" class="img-fluid rounded z-depth-1" %}   
-    </div>
-    <div class="caption">
+        {% include figure.liquid path="assets/img/gen_assignments.png" title="Assignments screen" class="img-fluid rounded z-depth-1" %} 
+        <div class="caption">
           The assignments screen.
-    </div>
+      </div>
+    </div> 
 </div>

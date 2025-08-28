@@ -15,10 +15,12 @@
         <h2 class="card-title">{{ project.title }}</h2>
         <p class="card-text">{{ project.description }}</p>
         <div class="row ml-1 mr-1 p-0">
+
+          <!-- GITHUB ICON (Existing) -->
           {% if project.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+                <a href="{{ project.github }}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github gh-icon"></i></a>
               </div>
               {% if project.github_stars %}
                 <span class="stars" data-toggle="tooltip" title="GitHub Stars">
@@ -28,6 +30,26 @@
               {% endif %}
             </div>
           {% endif %}
+
+          <!-- PDF ICON (Newly Added) -->
+          {% if project.cv_pdf %}
+            <div class="pdf-icon">
+              <div class="icon" data-toggle="tooltip" title="Download PDF">
+                <a 
+                  {% if project.cv_pdf contains '://' %}
+                    href="{{ project.cv_pdf }}"
+                  {% else %}
+                    href="{{ project.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+                  {% endif %}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-solid fa-file-pdf"></i>
+                </a>
+              </div>
+            </div>
+          {% endif %}
+
         </div>
       </div>
     </div>
