@@ -16,7 +16,7 @@
         <p class="card-text">{{ project.description }}</p>
         <div class="row ml-1 mr-1 p-0">
 
-          <!-- GITHUB ICON (Existing) -->
+          <!-- GITHUB ICON -->
           {% if project.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">
@@ -31,9 +31,9 @@
             </div>
           {% endif %}
 
-          <!-- PDF ICON (Newly Added) -->
+          <!-- PDF ICON -->
           {% if project.cv_pdf %}
-            <div class="pdf-icon">
+            <div class="pdf-icon ml-2"> <!-- Added ml-3 for margin -->
               <div class="icon" data-toggle="tooltip" title="Download PDF">
                 <a 
                   {% if project.cv_pdf contains '://' %}
@@ -49,7 +49,6 @@
               </div>
             </div>
           {% endif %}
-
         </div>
       </div>
     </div>
