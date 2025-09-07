@@ -14,7 +14,7 @@
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
         <p class="card-text">{{ project.description }}</p>
-        <div class="row ml-1 mr-1 p-0">
+        <div class="row ml-0 mr-1 p-0">
 
           <!-- GITHUB ICON -->
           {% if project.github %}
@@ -33,7 +33,7 @@
 
           <!-- PDF ICON -->
           {% if project.cv_pdf %}
-            <div class="pdf-icon ml-2"> <!-- Added ml-3 for margin -->
+            <div class="pdf-icon ml-1"> <!-- Added ml-3 for margin -->
               <div class="icon" data-toggle="tooltip" title="Download PDF">
                 <a 
                   {% if project.cv_pdf contains '://' %}
