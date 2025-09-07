@@ -10,8 +10,6 @@ layout: default
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}
-
-      <!-- GITHUB ICON (Will appear on the left) -->
       {% if page.github %}
         <a
           href="{{ page.github }}"
@@ -23,7 +21,6 @@ layout: default
         </a>
       {% endif %}
 
-      <!-- PDF ICON (Will appear on the far right) -->
       {% if page.cv_pdf %}
         <a
           {% if page.cv_pdf contains '://' %}
@@ -33,7 +30,7 @@ layout: default
           {% endif %}
           target="_blank"
           rel="noopener noreferrer"
-          class="float-right mr-2" <!-- Margin added here -->
+          class="float-right mr-2"
         >
           <i class="fa-solid fa-file-pdf"></i>
         </a>
