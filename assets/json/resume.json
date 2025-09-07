@@ -51,7 +51,7 @@
       "highlights": ["Deferred Shading.", "Physically Based Shading.", "Screen Space Ambient Occlusion.", "Soft Shadows.", "Image Based Lighting.", "Custom .obj model loader."],
       "startDate": "2023-07-01",
       "endDate": "Present",
-      "url": "https://example.com"
+      "url": "https://pepis74.github.io/projects/quarantamaula_engine"
     },
     {
       "name": "Genetic Invaders",
@@ -59,7 +59,7 @@
       "highlights": ["DNA-based gameplay.", "Different guns.", "Aptly themed passives.", "Ship skins.", "Daily missions."],
       "startDate": "2019-06-01",
       "endDate": "2020-07-01",
-      "url": "https://example.com"
+      "url": "https://pepis74.github.io/projects/genetic_invaders/"
     },
     {
       "name": "Go Back to Dead",
@@ -67,7 +67,7 @@
       "highlights": ["Made for a university game jam.", "Developed in Unity by a team of 5.", "My contributions were leading the team, game design and programming."],
       "startDate": "2022-11-01",
       "endDate": "2022-11-01",
-      "url": "https://example.com"
+      "url": "https://pepis74.github.io/projects/go_back_to_dead/"
     },
     {
       "name": "The Cat",
@@ -75,7 +75,7 @@
       "highlights": ["Made for the GMTK 2020 game jam, which had the theme 'Out of Control'.", "Developed in Unity by a team of 3.", "My contributions were game design and programming."],
       "startDate": "2020-07-01",
       "endDate": "2020-07-01",
-      "url": "https://example.com"
+      "url": "https://pepis74.github.io/projects/the_cat/"
     }
   ],
   "languages": [
