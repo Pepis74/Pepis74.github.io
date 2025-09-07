@@ -2,7 +2,6 @@
 layout: default
 ---
 {% if page._styles %}
-  <!-- Page/Post style -->
   <style type="text/css">
     {{ page._styles }}
   </style>
@@ -12,7 +11,19 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}
 
-      <!-- PDF ICON (Furthest to the right) -->
+      <!-- GITHUB ICON (Will appear on the left) -->
+      {% if page.github %}
+        <a
+          href="{{ page.github }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="float-right"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+      {% endif %}
+
+      <!-- PDF ICON (Will appear on the far right) -->
       {% if page.cv_pdf %}
         <a
           {% if page.cv_pdf contains '://' %}
@@ -22,23 +33,12 @@ layout: default
           {% endif %}
           target="_blank"
           rel="noopener noreferrer"
-          class="float-right"
+          class="float-right mr-2" <!-- Margin added here -->
         >
           <i class="fa-solid fa-file-pdf"></i>
         </a>
       {% endif %}
-
-      <!-- GITHUB ICON (To the left of the PDF icon) -->
-      {% if page.github %}
-        <a
-          href="{{ page.github }}"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="float-right mr-2" <!-- Added mr-2 for margin -->
-        >
-          <i class="fa-brands fa-github"></i>
-        </a>
-      {% endif %}
+      
     </h1>
     <p class="post-description">{{ page.description }}</p>
   </header>
