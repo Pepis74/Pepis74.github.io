@@ -81,8 +81,8 @@ Apart from this, the ship can move and perform a dash to avoid enemy attacks. Fu
 
 In order to obtain all these customization items the game has multiple systems. An in game store, lootboxes that can be obtained by playing, items that can be obtained through progressing in the game and daily assignments that give miscellaneous rewards, such as letting you choose the item you want to work on unlocking, lootboxes or the store's currency.
 
-<div class="row justify-content-center">
-    <div class="col-lg-6">
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/gen_assignments.png" title="Assignments screen" class="img-fluid rounded z-depth-1" %} 
         <div class="caption">
           The assignments screen.
