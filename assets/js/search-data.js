@@ -55,6 +55,11 @@ ninja.data = [{
           description: "Custom OpenGL engine developed to teach myself computer graphics.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/quarantamaula_engine/";
+            },},{id: "projects-quarantamaulanx",
+          title: 'QuarantamaulaNX',
+          description: "The Quarantamaula engine ported to the Nintendo Switch.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/quarantamaula_nx/";
             },},{id: "projects-the-cat",
           title: 'The Cat',
           description: "In this turn-based game the player takes the role of a cat-sitter. They must rearrange furniture to protect their friend’s precious items from his unpredictable pet.",
