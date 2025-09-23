@@ -4,7 +4,7 @@ title: Genetic Invaders
 description: "Mobile arcade game based in Unity made to teach the player key concepts of genetics."
 img: assets/img/genlogo.png
 github: https://github.com/Pepis74/Genetic-Invaders
-importance: 3
+importance: 2
 category: videogames
 ---
 
