@@ -28,7 +28,7 @@ I took a class in my degree about video game console architecture. For that clas
 </div>
 <!-- The caption remains the same -->
 <div class="caption">
-    A showcase of the checkers switch game running on QuarantamaulaNX.
+    A showcase of the checkers game running on QuarantamaulaNX on the Suyu emulator.
 </div>
 
 For the project we had to use devkitpro and its Nintendo Switch developmeent library, libnx. But, since the Nintendo Switch is a modern console that supports the API on which the engine is based, the environment is very similar to that used for PC development. Only a few changes had to be made, which I'll explain below:
