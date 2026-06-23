@@ -63,11 +63,11 @@
     },
     {
       "name": "Brawlight Manor",
-      "summary": "Mobile arcade game based in Unity made to teach the player key concepts of genetics.",
-      "highlights": ["DNA-based gameplay.", "Different guns.", "Aptly themed passives.", "Ship skins.", "Daily missions."],
-      "startDate": "2019-06-01",
-      "endDate": "2020-07-01",
-      "url": "https://pepis74.github.io/projects/genetic_invaders/"
+      "summary": "1v1 Couch Multiplayer game developed by a team of students at my Master's degree.",
+      "highlights": ["Competitive gameplay", "Spooky aesthetic", "Different Characters and abilities", "Narrative Puzzle"],
+      "startDate": "2026-02-01",
+      "endDate": "2026-06-01",
+      "url": "https://pusiriot.itch.io/brawlight-manor"
     }
   ],
   "languages": [
@@ -119,11 +119,11 @@
       "keywords": [
         "C++",
         "C#",
+        "CUDA",
         "Java",
         "C",
         "Python",
         "JavaScript",
-        "Haskell",
         "Prolog"
       ]
     },
