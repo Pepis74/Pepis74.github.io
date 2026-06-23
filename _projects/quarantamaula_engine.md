@@ -5,7 +5,7 @@ description: Custom OpenGL engine developed to teach myself computer graphics.
 img: assets/img/Portada.jpg
 github: https://github.com/Pepis74/Quarantamaula
 cv_pdf: qe.pdf
-importance: 1
+importance: 2
 category: computer graphics
 related_publications: false
 ---
