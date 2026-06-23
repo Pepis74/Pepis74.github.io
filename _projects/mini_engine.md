@@ -23,7 +23,7 @@ MiniEngine is a modern Vulkan graphics engine. It's a class project from my Mast
 You can read more about these features in the [attached report](https://pepis74.github.io/assets/pdf/ra2.pdf). Here I'll share some images rendered with the engine.
 
 <div class="row justify-content-center">
-    <div class="col-lg-10">
+    <div class="col-lg-8">
         {% include figure.liquid path="assets/img/ssao.png" title="SSAO" class="img-fluid rounded z-depth-1" %} 
         <div class="caption">
           The SSAO seen in the Stanford Dragon.
@@ -32,7 +32,7 @@ You can read more about these features in the [attached report](https://pepis74.
 </div>
 
 <div class="row justify-content-center">
-    <div class="col-lg-10">
+    <div class="col-lg-8">
         {% include figure.liquid path="assets/img/vsm_result.png" title="VSM" class="img-fluid rounded z-depth-1" %} 
         <div class="caption">
           Shadows rendered via Variance Shadow Maps.
@@ -41,7 +41,7 @@ You can read more about these features in the [attached report](https://pepis74.
 </div>
 
 <div class="row justify-content-center">
-    <div class="col-lg-10">
+    <div class="col-lg-8">
         {% include figure.liquid path="assets/img/rt_result.png" title="RTX" class="img-fluid rounded z-depth-1" %} 
         <div class="caption">
           Shadows rendered via Ray Traced Soft Shadows.

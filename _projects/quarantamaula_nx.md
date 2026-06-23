@@ -4,7 +4,7 @@ title: QuarantamaulaNX
 description: The Quarantamaula engine ported to the Nintendo Switch.
 img: assets/img/checkers.png
 github: https://github.com/Pepis74/QuarantamaulaNX
-importance: 2
+importance: 4
 category: videogames
 ---
 
