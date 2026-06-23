@@ -35,6 +35,11 @@ ninja.data = [{
           description: "Two friends explore the thousand year old abandoned lighthouse that looks over their hometown.",
           section: "Horror_stories",handler: () => {
               window.location.href = "/horror_stories/finisterre/";
+            },},{id: "projects-brawlight-manor",
+          title: 'Brawlight Manor',
+          description: "1v1 Couch Multiplayer game developed by a team of students at my Master&#39;s degree.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/brawlight_manor/";
             },},{id: "projects-genetic-invaders",
           title: 'Genetic Invaders',
           description: "Mobile arcade game based in Unity made to teach the player key concepts of genetics.",
@@ -45,6 +50,11 @@ ninja.data = [{
           description: "Infuriated that a zombie apocalypse has reanimated millions of people and ruined all his hard work, Death itself, controlled by the player, must slay as many zombies as he can in this top-down arcade game.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/go_back_to_dead/";
+            },},{id: "projects-luigi-39-s-mansion-vr",
+          title: 'Luigi&amp;#39;s Mansion VR',
+          description: "Mobile arcade game based in Unity made to teach the player key concepts of genetics.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/luigis_mansion_vr/";
             },},{id: "projects-miniengine",
           title: 'MiniEngine',
           description: "Vulkan RTX engine developed as a class project for my Master&#39;s degree.",
