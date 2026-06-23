@@ -4,7 +4,7 @@ title: PBRRenderer
 description: My bachelor's thesis, an interface over Radeon ProRender to adapt it to the specific rendering needs of the client.
 img: assets/img/bright_fake.png
 cv_pdf: tfg.pdf
-importance: 3
+importance: 4
 category: computer graphics
 giscus_comments: false
 ---
