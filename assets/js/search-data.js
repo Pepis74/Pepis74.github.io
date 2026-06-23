@@ -45,6 +45,11 @@ ninja.data = [{
           description: "Infuriated that a zombie apocalypse has reanimated millions of people and ruined all his hard work, Death itself, controlled by the player, must slay as many zombies as he can in this top-down arcade game.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/go_back_to_dead/";
+            },},{id: "projects-miniengine",
+          title: 'MiniEngine',
+          description: "Vulkan RTX engine developed as a class project for my master&#39;s degree.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mine_engine/";
             },},{id: "projects-pbrrenderer",
           title: 'PBRRenderer',
           description: "My bachelor&#39;s thesis, an interface over Radeon ProRender to adapt it to the specific rendering needs of the client.",
