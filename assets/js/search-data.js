@@ -47,9 +47,14 @@ ninja.data = [{
               window.location.href = "/projects/go_back_to_dead/";
             },},{id: "projects-miniengine",
           title: 'MiniEngine',
-          description: "Vulkan RTX engine developed as a class project for my master&#39;s degree.",
+          description: "Vulkan RTX engine developed as a class project for my Master&#39;s degree.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/mine_engine/";
+              window.location.href = "/projects/mini_engine/";
+            },},{id: "projects-nori-based-path-tracer",
+          title: 'Nori-Based Path Tracer',
+          description: "CPU Path Tracer built on Nori done as a class project for my Master&#39;s degree.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/nori/";
             },},{id: "projects-pbrrenderer",
           title: 'PBRRenderer',
           description: "My bachelor&#39;s thesis, an interface over Radeon ProRender to adapt it to the specific rendering needs of the client.",
