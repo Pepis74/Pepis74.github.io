@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Luigi's Mansion VR
-description: "Mobile arcade game based in Unity made to teach the player key concepts of genetics."
-img: assets/img/genlogo.png
+description: "VR arcade game inspired on Luigi's Mansion I made as a project for my Master's degree"
+img: assets/img/luigisVR.png
 github: https://github.com/Pepis74/Genetic-Invaders
 importance: 2
 category: videogames
