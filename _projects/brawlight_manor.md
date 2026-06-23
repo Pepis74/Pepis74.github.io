@@ -3,6 +3,7 @@ layout: page
 title: Brawlight Manor
 description: 1v1 Couch Multiplayer game developed by a team of students at my Master's degree.
 img: assets/MainMenu2.png
+itchio: https://pusiriot.itch.io/brawlight-manor
 importance: 3
 category: videogames
 ---
