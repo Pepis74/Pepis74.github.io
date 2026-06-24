@@ -5,7 +5,7 @@ description: The Quarantamaula engine ported to the Nintendo Switch.
 img: assets/img/checkers.png
 github: https://github.com/Pepis74/QuarantamaulaNX
 importance: 4
-category: videogames
+category: computer graphics
 ---
 
 I took a class in my degree about video game console architecture. For that class, a partner and I made a checkers game for the Nintendo Switch that runs on a ported version of my OpenGL engine, QuarantamaulaNX. 
