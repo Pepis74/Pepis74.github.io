@@ -52,7 +52,7 @@ ninja.data = [{
               window.location.href = "/projects/go_back_to_dead/";
             },},{id: "projects-luigi-39-s-mansion-vr",
           title: 'Luigi&amp;#39;s Mansion VR',
-          description: "VR arcade game inspired by Luigi&#39;s Mansion I made as a project for my Master&#39;s degree",
+          description: "VR arcade game inspired by Luigi&#39;s Mansion I made as a project for my Master&#39;s degree.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/luigis_mansion_vr/";
             },},{id: "projects-miniengine",
