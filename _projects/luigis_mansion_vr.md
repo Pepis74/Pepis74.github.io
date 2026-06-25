@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Luigi's Mansion VR
-description: "VR arcade game inspired by Luigi's Mansion I made as a project for my Master's degree"
+description: "VR arcade game inspired by Luigi's Mansion I made as a project for my Master's degree."
 img: assets/img/luigisVR.png
 github: https://github.com/Pepis74/Luigis-Mansion-VR
 importance: 5
