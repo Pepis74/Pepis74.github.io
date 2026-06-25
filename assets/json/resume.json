@@ -48,7 +48,7 @@
     {
       "name": "Quarantamaula Engine",
       "summary": "Custom OpenGL engine developed to teach myself computer graphics.",
-      "highlights": ["Deferred Shading.", "Physically Based Shading.", "Screen Space Ambient Occlusion.", "Soft Shadows.", "Image Based Lighting.", "Custom .obj model loader."],
+      "highlights": ["Deferred Shading.", "Physically Based Shading.", "Screen Space Ambient Occlusion.", "Soft Shadows.", "Image Based Lighting.", "Ported to the Nintendo Switch as QuarantamaulaNX."],
       "startDate": "2023-07-01",
       "endDate": "Present",
       "url": "https://pepis74.github.io/projects/quarantamaula_engine"
@@ -64,10 +64,18 @@
     {
       "name": "Brawlight Manor",
       "summary": "1v1 Couch Multiplayer game developed by a team of students at my Master's degree.",
-      "highlights": ["Competitive gameplay", "Spooky aesthetic", "Different Characters and abilities", "Narrative Puzzle"],
+      "highlights": ["Competitive gameplay", "Spooky aesthetic", "Different characters and abilities", "Narrative puzzle"],
       "startDate": "2026-02-01",
       "endDate": "2026-06-01",
       "url": "https://pusiriot.itch.io/brawlight-manor"
+    },
+    {
+      "name": "More on my portfolio!",
+      "summary": "",
+      "highlights": [],
+      "startDate": "",
+      "endDate": "",
+      "url": "https://pepis74.github.io/projects/"
     }
   ],
   "languages": [
