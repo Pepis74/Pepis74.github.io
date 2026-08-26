@@ -4,7 +4,7 @@ title: The Cat
 description: In this turn-based game the player takes the role of a cat-sitter. They must rearrange furniture to protect their friend’s precious items from his unpredictable pet.
 img: assets/img/cat_title.png
 github: https://github.com/Pepis74/gmtk-game-jam-2020
-importance: 4
+importance: 6
 category: videogames
 ---
 

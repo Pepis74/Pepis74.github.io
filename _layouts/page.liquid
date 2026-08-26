@@ -35,6 +35,16 @@ layout: default
           <i class="fa-solid fa-file-pdf"></i>
         </a>
       {% endif %}
+      {% if page.itchio %}
+        <a
+          href="{{ page.itchio }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="float-right mr-2"
+        >
+          <i class="fa-solid fa-link"></i>
+        </a>
+      {% endif %}
       
     </h1>
     <p class="post-description">{{ page.description }}</p>

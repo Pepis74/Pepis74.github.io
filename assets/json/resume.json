@@ -49,7 +49,7 @@
     {
       "name": "Quarantamaula Engine",
       "summary": "Custom OpenGL engine developed to teach myself computer graphics.",
-      "highlights": ["Deferred Shading.", "Physically Based Shading.", "Screen Space Ambient Occlusion.", "Soft Shadows.", "Image Based Lighting.", "Custom .obj model loader."],
+      "highlights": ["Deferred Shading.", "Physically Based Shading.", "Screen Space Ambient Occlusion.", "Soft Shadows.", "Image Based Lighting.", "Ported to the Nintendo Switch as QuarantamaulaNX."],
       "startDate": "2023-07-01",
       "endDate": "Present",
       "url": "https://pepis74.github.io/projects/quarantamaula_engine"
@@ -63,20 +63,18 @@
       "url": "https://pepis74.github.io/projects/genetic_invaders/"
     },
     {
-      "name": "Go Back to Dead",
-      "summary": "Infuriated that a zombie apocalypse has reanimated millions of people and ruined all his hard work, Death itself, controlled by the player, must slay as many zombies as he can in this top-down arcade game",
-      "highlights": ["Made for a university game jam.", "Developed in Unity by a team of 5.", "My contributions were leading the team, game design and programming."],
-      "startDate": "2022-11-01",
-      "endDate": "2022-11-01",
-      "url": "https://pepis74.github.io/projects/go_back_to_dead/"
+      "name": "Brawlight Manor",
+      "summary": "1v1 Couch Multiplayer game developed by a team of students at my Master's degree.",
+      "highlights": ["Competitive gameplay", "Spooky aesthetic", "Different characters and abilities", "Narrative puzzle"],
+      "startDate": "2026-02-01",
+      "endDate": "2026-06-01",
+      "url": "https://pusiriot.itch.io/brawlight-manor"
     },
     {
-      "name": "The Cat",
-      "summary": "In this turn-based game the player takes the role of a cat-sitter. They must rearrange furniture to protect their friend’s precious items from his unpredictable pet.",
-      "highlights": ["Made for the GMTK 2020 game jam, which had the theme 'Out of Control'.", "Developed in Unity by a team of 3.", "My contributions were game design and programming."],
-      "startDate": "2020-07-01",
-      "endDate": "2020-07-01",
-      "url": "https://pepis74.github.io/projects/the_cat/"
+      "name": "And much more on my portfolio!",
+      "summary": "",
+      "highlights": [],
+      "url": "https://pepis74.github.io/projects/"
     }
   ],
   "languages": [
@@ -101,13 +99,14 @@
       "name": "Computer Graphics",
       "level": "Advanced",
       "keywords": [
+        "Vulkan",
         "OpenGL",
-        "Monte Carlo ray tracing",
-        "Irradiance Cache",
+        "Path Tracing",
+        "RTX",
         "Deferred Shading",
         "Physically Based Shading",
         "Image Based Lighting",
-        "Shadow Maps & Shadow Filtering"
+        "Shadow Maps"
       ]
     },
     {
@@ -117,7 +116,8 @@
         "Unity",
         "C#",
         "Game Design",
-        "UI Design"
+        "UI Design",
+        "Virtual Reality"
       ]
     },
     {
@@ -126,11 +126,11 @@
       "keywords": [
         "C++",
         "C#",
+        "CUDA",
         "Java",
         "C",
         "Python",
         "JavaScript",
-        "Haskell",
         "Prolog"
       ]
     },

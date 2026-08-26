@@ -3,7 +3,7 @@ layout: page
 title: Go Back to Dead
 description: Infuriated that a zombie apocalypse has reanimated millions of people and ruined all his hard work, Death itself, controlled by the player, must slay as many zombies as he can in this top-down arcade game.
 img: assets/img/gobacktodead.png
-importance: 3
+importance: 7
 category: videogames
 ---
 
